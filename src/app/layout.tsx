@@ -35,6 +35,7 @@ export const metadata: Metadata = {
     languages: { en: "/", "zh-CN": "/", "x-default": "/" },
   },
   openGraph: {
+    images: [{ url: "/opengraph-image.png", width: 1200, height: 630, alt: "OmniFi · 万物金融" }],
     title: "OmniFi · The Periodic Table of Financialization",
     description:
       "Nine dimensions of reality, nine units of account, nine markets. The map of how everything becomes a market.",
@@ -45,6 +46,7 @@ export const metadata: Metadata = {
     alternateLocale: ["zh_CN"],
   },
   twitter: {
+    images: ["/twitter-image.png"],
     card: "summary_large_image",
     title: "OmniFi · The Periodic Table of Financialization",
     description: "Nine dimensions. Nine units. Nine markets. The map.",
